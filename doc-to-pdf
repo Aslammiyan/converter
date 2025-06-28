@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Doc to PDF Converter</title>
+</head>
+<body>
+
+  <h1>Doc to PDF Converter</h1>
+
+  <div class="upload-container" id="drop-area">
+    <p>Drag & Drop your .doc/.docx file here</p>
+    <p>or</p>
+    <label class="btn" for="fileElem">Choose File</label>
+    <input type="file" id="fileElem" class="file-input" accept=".doc,.docx" />
+    <div class="file-name" id="fileName"></div>
+  </div>
+
+  <button class="btn" id="convertBtn">Convert to PDF</button>
+</body>
+</html>
